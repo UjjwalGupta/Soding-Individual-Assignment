@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_edit_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_edit_task_rv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Name"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/tv_edit_task_rv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task Name"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/checkbox_delete"
+            android:layout_below="@+id/tv_edit_task_rv_name"/>
+
+        <TextView
+            android:id="@+id/tv_edit_task_rv_date_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created:"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_edit_task_rv_desc"/>
+
+        <TextView
+            android:id="@+id/tv_edit_task_rv_date_updated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created:"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_edit_task_rv_desc"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
