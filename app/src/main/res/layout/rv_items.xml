@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardview_edit_task"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#bcbbb7">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:background="#bcbbb7">
 
         <TextView
             android:id="@+id/tv_edit_task_rv_name"
@@ -16,6 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Task Name"
             android:gravity="center"
+            android:textColor="@color/cardview_dark_background"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
@@ -33,6 +37,7 @@
             android:layout_height="wrap_content"
             android:text="Task Name"
             android:textSize="16sp"
+            android:textColor="@color/cardview_dark_background"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_toLeftOf="@+id/checkbox_delete"
@@ -43,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Created:"
+            android:textColor="@color/cardview_dark_background"
             android:textSize="14sp"
             android:layout_marginTop="10dp"
             android:layout_alignParentLeft="true"
@@ -53,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Created:"
+            android:textColor="@color/cardview_dark_background"
             android:textSize="14sp"
             android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"

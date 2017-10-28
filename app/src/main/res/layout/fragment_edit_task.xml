@@ -2,11 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4b4a45"
     tools:context="com.ujjwalkumargupta.intellij.Fragments.EditTaskFragment">
 
   <android.support.v7.widget.RecyclerView
       android:id="@+id/rv_edit_task"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"/>
+      android:layout_height="wrap_content"
+      android:background="#4b4a45"/>
 
 </RelativeLayout>
